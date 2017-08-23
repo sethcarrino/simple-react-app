@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
+import EarthquakeInfo from './EarthquakeInfo.js';
+import EarthquakeList from './EarthquakeList.js';
+
+
 class App extends Component {
   render() {
     return (
@@ -10,6 +14,8 @@ class App extends Component {
             <h1>Earthquakes!</h1>
           </div>
         </div>
+        <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
